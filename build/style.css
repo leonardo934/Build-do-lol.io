@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121a2b
+}
+
+.background {
+    background-color: #263450;
+}
+
+.primary-color {
+    background-color: #263450
+}
+
+.secondary-color {
+    background-color: rgb(19, 170, 32)
+}
+
+.color-text {
+
+    color: white;
+}
+
+
+.link-card {
+    text-decoration: none;
+    color: black;
+}
+
+.link-card:hover {
+    color: black;
+
+}
+
+.slot-img {
+    width: 100%;
+    max-width: 20px;
+}
+
+.todas-as-runas {
+    width: 100%;
+    max-width: 35px;
+    padding: 1px;
+
+}
+
+.atributos-add-img{
+    width: 100%;
+    max-width: 25px;
+}
+
+.iten-img {
+    width: 100%;
+    max-width: 40px;
+    padding: 1px;
+}
+
+
+.runa-principal-img {
+    width: 100%;
+    max-width: 65px;
+    padding: 1px;
+}
+
+.avatar_do_campeao {
+    width: 100%;
+    max-width: 65px;
+}
+
+
+.slot {
+    height: 17px;
+}
+
+.cell{
+    display: none;
+}
+
+.comp{
+    display: flex;
+}
+.editar{
+    margin-right: 7px;
+}
+
+.deltar{
+    margin-right: 7px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .avatar_do_campeao {
+        width: 100%;
+        max-width: 45px;
+    }
+
+    .iten-img {
+        width: 100%;
+        max-width: 65px;
+        padding: 10px;
+
+    }
+    .cell{
+        display: flex;
+    }
+    .comp{
+        display: none;
+    }
+
+}
