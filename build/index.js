@@ -30,3 +30,24 @@ buttonSair.addEventListener("click", function () {
     })
 
 })
+
+
+function followpage(editar) {
+    window.location.href = editar
+
+}
+const buttonEditar = document.querySelector(".buttonditar")
+
+buttonEditar.addEventListener("click", function () {
+    nextpage("./edit.html")
+})
+
+
+
+
+
+
+
+$(document).ready(function() {
+    $('.selectpicker').selectpicker();
+  });

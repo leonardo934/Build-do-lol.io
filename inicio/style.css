@@ -1,60 +1,74 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:#121a2b
-}
-.background{
-    background-color:#263450;
-}
-.primary-color{
-    background-color:#263450
-}
-.secondary-color{
-    background-color:rgb(19, 170, 32)
+
+body {
+    background-color: #121a2b
 }
 
-.color-text{
+.background {
+    background-color: #263450;
+}
+
+.primary-color {
+    background-color: #263450
+}
+
+.secondary-color {
+    background-color: rgb(19, 170, 32)
+}
+
+.color-text {
     color: white;
 }
 
-.card-img-top{
+.card-img-top {
     height: 72px;
     width: 72px;
     padding: 10px;
 }
 
 .link-card {
-    text-decoration:none;
+    text-decoration: none;
     color: black;
 }
 
-.link-card:hover{
+.link-card:hover {
     color: black;
-    
+
 }
 
-.biuld-itens{
+.biuld-itens {
     height: 45px;
     width: 45px;
     padding: 1px;
 }
 
-.biuld-runas{
-    
+.biuld-runas {
+
     height: 45px;
     width: 45px;
     padding: 1px;
 }
 
 
-.biuld-runa-menor{
+.biuld-runa-menor {
     height: 30px;
     width: 30px;
     padding: 1px;
- margin-left: -6px;
+    margin-left: -6px;
 }
 
+
+@media screen and (max-width: 768px) {
+    .card {
+        display: flex;
+        width: 300px;
+        margin-left: 1px;
+        margin-right: 1px;
+        justify-content: center;
+        align-content: center;
+    }
+}

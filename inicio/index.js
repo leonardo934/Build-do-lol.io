@@ -15,7 +15,7 @@ buttonSair.addEventListener("click", function () {
     },
 
     body: JSON.stringify({ token: window.localStorage.getItem("token") }),
-   
+
 
   }).then((response => response.json())).then(data => {
 
@@ -41,7 +41,7 @@ const cards_main = document.querySelector("#cards-main")
 const a = [
   {
     id: 1,
-    user_id:1,
+    user_id: 1,
     titulo: "Build leonardo",
     avatar: "../img/pykeimg.png",
     descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatumat quealiquid?",
@@ -51,7 +51,7 @@ const a = [
 
   {
     id: 2,
-    user_id:1,
+    user_id: 1,
     titulo: "Build leandro",
     avatar: "../img/download.png",
     descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatumat quealiquid?",
@@ -130,15 +130,15 @@ a.map((card, index) => {
             <div class="d-flex justify-content-between">
               <div>
                 ${card.itens.map((item) => {
-      return ` <img src="${item.avatar}" alt="" class="biuld-itens  rounded-circle">`
-    })}
+    return ` <img src="${item.avatar}" alt="" class="biuld-itens  rounded-circle">`
+  })}
                 
               </div>
               <div>
               
                 ${card.runa.map((rune) => {
-      return ` <img src="${rune.avatar}" alt="" class="biuld-runas  rounded-circle">`
-    })}
+    return ` <img src="${rune.avatar}" alt="" class="biuld-runas  rounded-circle">`
+  })}
               </div>
             </div>
           </div>
